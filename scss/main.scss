@@ -15,13 +15,15 @@ body{
     height: 300px;
 }
 
-.main{
+.main-section{
     background-color: $primary-color;
 }
 
 #footer{
     $background:#FA9500;
     background-color: $background;
+    width: 100%;
+    height: 250px;
 }
 
 
