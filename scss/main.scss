@@ -40,6 +40,7 @@ article{
     padding-right: 45px;
     display: flex;
     justify-content: space-between;
+    padding-top: 70px;
     .impact-section{
         display: flex;
         flex-direction: column;
@@ -66,6 +67,40 @@ article{
     img{
         width: 25vw;
         border-radius: 19px;
+    }
+}
+section{
+    width: 100%;
+    height: auto;
+    background-color: $primary-color;
+    padding: 60px;
+    h2{
+        color: $primary-text-color;
+        font-size: 2em;
+    }
+    .healthcare{
+        h2{
+            font-weight: 300;
+            padding-bottom: 60px;
+        }
+        .product-card{
+            width: 12vw;
+            height: auto;
+            background-color: $secondary-color;
+            color: $primary-text-color;
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            .product-image{
+                img{
+                    width: 180px;
+                    height: 230px;
+                    border-radius: 6px;
+                    background-image: cover;
+                }
+            }
+        }
     }
 }
 
