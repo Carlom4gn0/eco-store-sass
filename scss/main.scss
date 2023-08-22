@@ -83,23 +83,50 @@ section{
             font-weight: 300;
             padding-bottom: 60px;
         }
-        .product-card{
-            width: 12vw;
-            height: auto;
-            background-color: $secondary-color;
-            color: $primary-text-color;
-            padding: 20px;
-            border-radius: 8px;
+        .card-section{   
             display: flex;
-            flex-direction: column;
-            .product-image{
-                img{
-                    width: 180px;
-                    height: 230px;
-                    border-radius: 6px;
-                    background-image: cover;
+            width: auto;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            column-gap:100px;
+            row-gap: 80px;
+            .product-card{
+                width: 20vw;
+                height: 35vw;                
+                background-color: $secondary-color;
+                    color: $primary-text-color;
+                    padding: 20px;
+                    border-radius: 8px;
+                    display: flex;
+                    flex-direction: column;
+                    .icon{
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-end;
+                        padding-bottom: 12px;
+                        svg{
+                            width: 28px;
+                            height: 28px;
+                            svg path {
+                                stroke: #7c6A0A;
+                            }
+                        }
+                    }
+                    .product-image{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            width: 18vw;
+                            height: 20vw;
+                            border-radius: 6px;
+                            object-fit: cover;
+                        }
+                    }
                 }
-            }
         }
     }
 }
